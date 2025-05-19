@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>シンプルじゃんけん</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>じゃんけんゲーム</h1>
+
+    <div class="buttons">
+      <button class="hand" data-hand="グー">グー</button>
+      <button class="hand" data-hand="チョキ">チョキ</button>
+      <button class="hand" data-hand="パー">パー</button>
+    </div>
+
+    <div class="result">
+      <p>あなたの手：<span id="player">？</span></p>
+      <p>相手の手：<span id="computer">？</span></p>
+      <p id="outcome">結果：？</p>
+    </div>
+  </div>
+</body>
+</html>
